@@ -2,7 +2,7 @@ name: Thử nghiệm file README #Tên tiến trình
 
 on:
   push:
-    branches: [main"] 
+    branches: ["main"] 
     
 jobs:
   thuc_hanh_doc_file:
