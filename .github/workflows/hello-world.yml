@@ -1,0 +1,21 @@
+name: Thử nghiệm file README #Tên tiến trình
+
+on:
+  push:
+    branches: [main"] 
+    
+jobs:
+  thuc_hanh_doc_file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Bước 1 - Xin chào
+        run: echo " Hello Word"
+        
+      - name: Bước 2 - Tải code
+        uses: action/checkout@v6
+        
+      - name: Bước 3 - Đọc file
+        run: cat README.md
+          
+        
